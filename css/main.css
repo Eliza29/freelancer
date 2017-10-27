@@ -1,3 +1,38 @@
 /*
  * Estilos de tu proyecto
+ mis fuentes:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
  */
+ *{
+   box-sizing: border-box;
+   margin:0;
+   padding: 0;
+ }
+header{
+  background: #2c3e50;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  text-transform: uppercase;
+  height: 109px;
+  width: 100%;
+  z-index: 1000;
+}
+header h1{
+  margin-left: 118px;
+  margin-top: 36px;
+}
+.list-header{
+  position: absolute;
+  right: 129px;
+  top: 34px;
+}
+.list-header li{
+  display: inline-block;
+  padding: 10px;
+}
