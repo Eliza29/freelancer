@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+    <!--Estructura del header-->
     <header>
       <h1>start bootstrap</h1>
       <nav>
@@ -26,7 +27,7 @@
       </figure>
       <div class="text-profile">
         <h1 class="text-uppercase">start bootstrap</h1>
-        <hr class="white-stars">
+        <hr class="white-stars"><i class="fa fa-star" aria-hidden="true"></i>
         <span>Web Developer-Graphic Artist-User Experience Designer</span>
       </div>
     </section>
@@ -68,51 +69,53 @@
         <input type="text" name="phone" value="">
         <label for="message">Message</label>
         <input type="text" name="message" value="">
+        <button class="send"type="button" name="button">Send</button>
       </form>
-      <button class="send"type="button" name="button">Send</button>
     </section>
     <footer>
-      <div class="">
-      <h4>location</h4>
-      <p>3481 Melrose Place
-         Beverly Hills, CA 90210</p>
-      </div>
-      <div class="">
-        <h4>around the web</h4>
-        <ul>
-          <li>
+      <div class="footer-column">
+       <div class="box-footer">
+         <h3 class="text-uppercase">location</h3>
+          <p>3481 Melrose Place
+             Beverly Hills, CA 90210</p>
+        </div>
+        <div class="box-footer">
+          <h3 class="text-uppercase">around the web</h3>
+          <ul class="list-footer">
+            <li>
             <a href="#">
                <i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
           </li>
-          <li>
+            <li>
             <a href="#">
               <i class="fa fa-google-plus" aria-hidden="true"></i>
             </a>
           </li>
-          <li>
+            <li>
             <a href="#">
               <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
           </li>
-          <li>
+            <li>
             <a href="#">
               <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
           </li>
-          <li>
+            <li>
             <a href="#">
               <i class="fa fa-dribbble" aria-hidden="true"></i>
             </a>
           </li>
-        </ul>
-      </div>
-      <div class="">
-        <h4>About freelancer</h4>
-        <p>Freelance is a free to use, open source Bootstrap theme created by
+          </ul>
+        </div>
+        <div class="box-footer">
+          <h3 class="text-uppercase">About freelancer</h3>
+          <p>Freelance is a free to use, open source Bootstrap theme created by
           Start Bootstrap.</p>
+        </div>
       </div>
-        <span></span>
+        <span class="text-last">Copyright &#169;Your Website 2017 </span>
     </footer>
   </body>
 </html>
