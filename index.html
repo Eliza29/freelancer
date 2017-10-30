@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <!--Estructura del header-->
+    <!--Estructura del encabezado-->
     <header>
       <h1>start bootstrap</h1>
       <nav>
@@ -21,20 +21,25 @@
         </ul>
       </nav>
     </header>
+    <!--Estructura de la primera seccion-->
     <section class="first-section">
-      <figure>
+      <figure><!--Insertando logo-->
         <img class="profile-logo"src="assets/images/profile.png" alt="logo profile">
       </figure>
       <div class="text-profile">
         <h1 class="text-uppercase">start bootstrap</h1>
-        <hr class="white-stars"><i class="fa fa-star" aria-hidden="true"></i>
+        <div class="white-stars"><!--insertando linea con estrella-->
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </div>
         <span>Web Developer-Graphic Artist-User Experience Designer</span>
       </div>
     </section>
     <section class="second-section">
       <h2 class="text-uppercase">portfolio</h2>
-      <hr class="black-stars">
-      <div class="block-pictures">
+      <div class="black-stars">
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+      <div class="block-pictures"><!--Insertando imagenes-->
         <img class="pictures"src="assets/images/portfolio/cabin.png" alt="cabin">
         <img class="pictures"src="assets/images/portfolio/cake.png" alt="cake">
         <img class="pictures"src="assets/images/portfolio/circus.png" alt="circus">
@@ -45,7 +50,9 @@
     </section>
     <section class="third-section">
       <h2 class="text-uppercase">about</h2>
-      <hr class="white-stars">
+      <div class="white-stars">
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
       <div class="text-box">
         <p>Freelancer is a free bootstrap theme created by Start Bootstrap.
           The download includes the complete source files including HTML, CSS, and
@@ -55,12 +62,13 @@
           projects, this template is the perfect starting point!</p>
       </div>
       <button class="download" type="button" name="button"><i class="fa fa-download" aria-hidden="true"></i>Download Theme</button>
-
     </section>
     <section class="last-section">
       <h2 class="text-uppercase">contact me</h2>
-      <hr class="black-stars">
-      <form class="form-contact">
+      <div class="black-stars">
+        <i class="fa fa-star" aria-hidden="true"></i>
+      </div>
+      <form class="form-contact"><!--Formulario-->
         <label for="name">Name</label>
         <input type="text" name="name" value="">
         <label for="email">Email Address</label>
@@ -72,7 +80,7 @@
         <button class="send"type="button" name="button">Send</button>
       </form>
     </section>
-    <footer>
+    <footer><!--Añadiendo pie de pagina-->
       <div class="footer-column">
        <div class="box-footer">
          <h3 class="text-uppercase">location</h3>
@@ -81,7 +89,7 @@
         </div>
         <div class="box-footer">
           <h3 class="text-uppercase">around the web</h3>
-          <ul class="list-footer">
+          <ul class="list-footer"><!--colocando iconos de redes sociales-->
             <li>
             <a href="#">
                <i class="fa fa-facebook" aria-hidden="true"></i>
