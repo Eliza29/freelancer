@@ -29,10 +29,14 @@ header h1{/*Estilo del titulo*/
   right: 129px;
   top: 34px;
 }
-.list-header li{
+.list-header li{/*haciendo lista horizontal*/
   cursor: pointer;
   display: inline-block;
   padding: 10px;
+}
+/*dando efecto a los elementos de la lista*/
+.list-header li:hover{
+  color:#18bc9c;
 }
 .first-section{/*Estilo de la primera seccion de la pag.*/
   background-color: #18bc9c;
@@ -53,7 +57,8 @@ header h1{/*Estilo del titulo*/
   font-size:4.5em;
   font-weight: 900;
 }
-.black-stars::before{/*Estilo de la linea con estrella*/
+/*colocando la linea antes de la estrella*/
+.black-stars::before{
   background-color: #2c3e50;
   border:none;
   content: " ";
@@ -62,10 +67,11 @@ header h1{/*Estilo del titulo*/
   height: 5px;
   width: 102px;
 }
-.black-stars i.fa-star {
+.black-stars i.fa-star {/*dando formato a la estrella*/
   font-size: 30px;
   color: #2c3e50;
 }
+/*colocando la linea despues de la estrella*/
 .black-stars::after{
   background-color: #2c3e50;
   border:none;
@@ -158,13 +164,18 @@ h2{
   margin: 25px;
   padding: 10px 15px;
 }
+.download:hover {/*efecto del boton download*/
+  background-color: #fff;
+  color:#18bc9c;
+}
 .last-section{
   margin-top: 104px;
   text-align: center;
   height: 700px;
   width: 100%;
 }
-.form-contact{/*Estilo del formulario*/
+/*Estilo del formulario*/
+.form-contact{
   margin-left: 305px;
   margin-top:66px;
   height: 357px;
@@ -186,16 +197,18 @@ input[type=text] {
     margin-bottom: 14px;
     width: 100%;
 }
-.send{
-  background-color:#18bc9c;;
+.send{/*formato del boton send*/
+  background-color:#18bc9c;
   border: none;
   border-radius: 5px;
   color: #fff;
-  cursor: pointer;
   font-family: 'Lato', sans-serif;
   font-size: 1.28em;
   margin-top:100px;
   padding: 10px 15px;
+}
+.send:hover{
+  background-color:#008060;
 }
 footer{
   background-color:#2c3e50;
@@ -205,12 +218,12 @@ footer{
 }
 .footer-column{
   column-count: 3;
-  column-gap:47px;
-  column-width: 300px;
+  column-gap:50px;
+  column-width: 100%;
   margin-left: 186px;
   padding-top: 50px;
   text-align: center;
-  width: 80%
+  width: 78%;
 }
 
 h3{
@@ -225,6 +238,11 @@ font-weight: 500;
 margin-top:42px;
 line-height: 35px;
 }
+#start-bootstrap{
+  border: none;
+  color: #18bc9c;
+  text-decoration: none;
+}
 .list-footer li{
   display: inline-block;
   text-decoration: none;
@@ -234,7 +252,7 @@ line-height: 35px;
 a{
   box-sizing: border-box;
   border: 2px solid #fff;
-  border-radius: 50%;
+  border-radius: 100%;
   color: white;
   font-size: 18px;
   margin: 0px 2px 10px 2px;
